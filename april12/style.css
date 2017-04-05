@@ -55,21 +55,22 @@ body {
   font-size: 1em;
 }
 
+.poster.border {
+	padding: 20px;
+	background-color: hsl(235, 18%, 54%);
+}
+
 .poster.outer {
   text-align: center;
   padding: 50px;
   display: flex;
   justify-content: center;
-  width: 100%;
+  /*width: 91%;*/
 
 	/*border: solid 20px hsla(235, 18%, 54%, 1);*/
-	background: url('dark_wood_h.png') repeat;
-	color: #fff;
-}
-
-.poster.outer,
-.paceline-divider img {
-  /*background-color: hsla(235, 18%, 24%, 1);*/
+	background: url('topography.png') repeat;
+	box-shadow: 0 0 5px 2px hsla(0, 0%, 25%, 0.55);
+	/*color: #fff;*/
 }
 
 .poster h1,
